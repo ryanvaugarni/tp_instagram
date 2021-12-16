@@ -122,6 +122,30 @@ img{
     line-height: 2.5rem;
     padding: 1rem;
 }
+.divider{
+    overflow: hidden;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: #b2b2b2;
+  }
+.divider:before, .divider:after{
+    background-color: rgb(0, 0, 0);
+    content: "";
+    display: inline-block;
+    height: 0.1rem;
+    position: relative;
+    vertical-align: middle;
+    width: 60%;
+  }
+.divider:before{
+    right: 1rem;
+    margin-left: -50%;
+} 
+.divider:after {
+    left: 1rem;
+    margin-right: -50%;
+}
 #gallery{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
