@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500,600');
+
+/* reset css */
+    html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+}
+h1,h2,h3,h4,h5,h6,p,figure,ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: #222;
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+:root{
+    --color-default: #000;
+    --color-primary: #2b7dc0;
+    --color-warning: #e23131;
+    --color-success: #4db32e;
+}
+/* theme */
+/* logo */
+.insta{
+    width: 20rem;
+    height: 10rem;
+    display: block;
+    margin: 0 auto 0;
+    margin-top: -2rem;
+    }
+/* theme */
+input{
+    outline: none;
+
+}
+header{
+    margin: 2rem 0;
+}
+header h1{
+    text-align: center;
+    line-height: 6rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+p{
+    text-align: center;
+}
+main{
+    max-width: 39rem;
+    margin: 0 auto;
+}
+.form{
+    padding: 1rem;
+    border: solid .1rem #2d2d2d;
+    background-color: #fafafa;
+}
+.formes{
+    margin-top: 1rem;
+    padding: 2.5rem;
+    border: solid .1rem #2d2d2d;
+    background-color: #fafafa;
+}
+[placeholder]{
+    transition: all 0.5s ease-in-out;
+}
+form{
+    padding: 1rem;
+}
+.form input{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: solid .1rem #ccc;
+    line-height: 3.5rem;
+    padding: .5rem;
+    border: solid .1rem #ccc;
+    line-height: 3.5rem;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+.form input[placeholder]{
+    font-size: 1.6rem;
+}
+/* submit */
+form input[type="submit"]{
+    display: block;
+    line-height: 2.5rem;
+    text-align: center;
+    border: solid .1rem transparent;
+    margin: .8rem auto 0;
+    width: 100%;
+    background-color: #328ecf;
+    color: #ffffff;
+    border-radius: .3rem;
+    font-size: 1.6rem;
+}
+input[type="submit"]:hover{
+    color: #d2d8df;
+}
+.appear{
+    z-index: 1;
+    opacity: 1;
+}
+img{
+    width: 2rem;
+}
+.warning, .success{
+    background-color: rgb(202, 51, 51);
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.0rem;
+    display: none;
+    line-height: 2.5rem;
+    padding: 1rem;
+}
+#gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#play{
+    width: calc(49% * 2);
+}
+    
