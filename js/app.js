@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded",()=>{
     
-    let s_btn, s_form, s_warning, s_btn_form, s_email, s_password
+    let s_btn, s_form, s_warning, s_btn_form, s_login, s_mdp
     s_btn = document.querySelector(".connect")
     s_form = document.querySelector(".form")
     s_warning = document.querySelector(".warning")
     s_btn_form = document.getElementsByTagName("input")[2]
-    s_email = localStorage.getItem("email")
-    s_password = localStorage.getItem("password")
+    s_login = localStorage.getItem("email")
+    s_mdp = localStorage.getItem("mdp")
 
     s_btn.addEventListener("click",()=>{
         console.log("Vous êtes logué")
@@ -27,13 +27,17 @@ document.addEventListener("DOMContentLoaded",()=>{
             s_warning.classList.add("success")
         //warning.classList.remove("success")
         s_warning.textContent ="Vous êtes logué"
-        /* lien avec la 2ème page */
-        document.location.assign("accueil.html")     
+        /* lien avec la 3ème page */
+        document.location.assign("accueil.html")
+            
         }
+       
+        
         else{
             s_warning.style.display="block";
             s_warning.classList.add("warning")
-            s_warning.textContent ="Mail ou mot de passe incorrecte"
+            s_warning.classList.remove("success")
+            s_warning.textContent ="Remplir les champs"
             
         }
     }

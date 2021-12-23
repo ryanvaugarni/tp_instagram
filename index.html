@@ -15,30 +15,28 @@
         <p class="warning">Warning</p>
         <div class="form" role="form">
             <form action="" method="get">
-                <img class="insta" src="svg/logo_instagram.svg">
+                <img id="insta" src="svg/logo_instagram.svg" alt="instagram">
                 <br>
-              
-                <input type="email" name="email" id="email" placeholder="Mail d'utilisateur" aria-required="true">
-                <input type="password" name="mdp" id="mdp" placeholder="Mot de passe" aria-required="true">
+                <input type="email" name="email" id="email" class="email" placeholder="Mail d'utilisateur" aria-required="true">
+                <input type="password" name="mdp" id="mdp" class="mdp" placeholder="Mot de passe" aria-required="true">
                 <input type="submit" value="Se connecter">
                 <br>
                 <div class="divider"><b>OU</b></div>
+                <br>
                 <p><img class="icon" alt="Facebook" src="ico/facebook.png"> Se connecter avec Facebook</p>
+                <br>
                 <p>Mot de passe oublié ?</p>
             </form>
         </div>
-        <form class="formes">
-            <p>Vous n'avez pas de compte ? Inscrivez-vous</p>
-        </form>
+        <section>
+            <p>Vous n'avez pas de compte ? <a href="#">Inscrivez-vous </a></p>
+        </section>
         <br>
-        <p>Télécharger l'application</p>
-        <br>
-        <ul id="gallery">
+        <ul id="picture">
+            <p>Télécharger l'application</p>
             <li>
-                <img id="play" src="image/appleStore.png">
-            </li>
-            <li>
-                <img id="play" src="image/googlePlay.png">
+                <a href="#"><img src="image/appleStore.png" alt="applestore"></a>
+                <a href="#"><img src="image/googlePlay.png" alt="googleplay"></a>
             </li>
         </ul>
     </main>
