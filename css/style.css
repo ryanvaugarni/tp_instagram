@@ -30,7 +30,7 @@ a{
     --color-warning: #e23131;
     --color-success: #4db32e;
 }
-/* logo INSTAGRAM*/
+/* bannière INSTAGRAM */
 #insta{
     width: 20rem;
     height: 10rem;
@@ -70,9 +70,6 @@ section{
     border: solid .1rem #bfbfbf;
     background-color: #fafafa;
 }
-[placeholder]{
-    transition: all 0.5s ease-in-out;
-}
 form{
     padding: 1rem;
 }
@@ -105,7 +102,7 @@ form input[type="submit"]{
     font-size: 1.6rem;
 }
 input[type="submit"]:hover{
-    color: #d2d8df;
+    background-color: #0669af;
 }
 .appear{
     z-index: 1;
@@ -114,7 +111,7 @@ input[type="submit"]:hover{
 img{
     width: 2rem;
 }
-.warning, .success{
+.warning{
     background-color: rgb(202, 51, 51);
     color: #fff;
     text-align: center;
@@ -123,14 +120,14 @@ img{
     line-height: 2.5rem;
     padding: 1rem;
 }
-.divider{
+#divider{
     overflow: hidden;
     text-align: center;
     box-sizing: border-box;
     margin: 0 auto;
     color: #b2b2b2;
   }
-.divider:before, .divider:after{
+#divider:before, #divider:after{
     background-color: rgb(0, 0, 0);
     content: "";
     display: inline-block;
@@ -139,18 +136,18 @@ img{
     vertical-align: middle;
     width: 60%;
   }
-.divider:before{
+#divider:before{
     right: 1rem;
     margin-left: -50%;
 } 
-.divider:after {
+#divider:after {
     left: 1rem;
     margin-right: -50%;
 }
 form p {
     color: #20357b;
 }
-.icon{
+#icon{
     width: 2rem;
     transform: translateX(-1rem);
     transform: translateY(0.4rem);
@@ -169,8 +166,4 @@ p a{
 }
 #picture li a img{
     width: 16rem;
-}
-#play{
-    width: calc(49% * 2);
-}
-    
+} 
