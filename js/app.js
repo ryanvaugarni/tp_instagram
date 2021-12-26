@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded",()=>{
     btn.addEventListener("click",(e)=>{
          form.classList.add('appear')
     })
-
     traitement = (e)=>{
         e.preventDefault()
         let User = {

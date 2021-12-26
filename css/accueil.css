@@ -48,11 +48,14 @@ header h1{
 }
 figcaption h3{
     font-size: 2.2rem;
+    color: #fafafa;
+    padding: 1rem;
+    margin: 1rem auto;
 }
 #ita{
-    width: 2.3rem;
-    transform: translateX(-1rem);
-    transform: translateY(0.4rem);
+    width: 3rem;
+    transform: translateX(-3rem);
+    transform: translateY(0.8rem);
 }
 strong{
     color: #000;
@@ -69,3 +72,31 @@ main section, main .form{
 section{
     margin-bottom: 1rem;
 }
+figure{
+    display: block;
+    margin: 0 auto;
+    background-color: #222;
+}
+figure ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+figure ul li img{
+    max-width: 100%;
+    height: auto;
+    border: solid .1rem #222;
+    display: block;
+}
+/* PLAYSTORE AND APPLE WIDGET */
+#picture li{
+    margin: 1rem auto;
+    text-align: center;
+    display: block;
+}
+#picture li a{
+    text-align: center;
+    margin: .5rem;
+}
+#picture li a img{
+    width: 16rem;
+} 
