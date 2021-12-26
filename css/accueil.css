@@ -106,7 +106,7 @@ figure ul li img{
     width: 16rem;
 } 
 /* RESPONSIVE */
-@media screen and (max-width: 60rem)and (min-width: 10rem){
+@media screen and (max-width: 50rem)and (min-width: 10rem){
     header h1{
         font-size: 1rem;
     }
