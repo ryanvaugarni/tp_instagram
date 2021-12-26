@@ -52,7 +52,7 @@ header h1{
 strong{
     color: #000;
 }
-p{
+p, h4{
     text-align: center;
 }
 main{
@@ -152,7 +152,10 @@ form p {
     transform: translateX(-1rem);
     transform: translateY(0.4rem);
 }
-p a{
+section h3{
+    font-size: 1.7rem;
+}
+h3 a{
     color: #2b7dc0;
 }
 /* PLAYSTORE AND APPLE WIDGET */

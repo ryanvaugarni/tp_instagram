@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded",()=>{
     console.log("ok")
     let form, warning, btn_form, traitement
-    form = document.querySelector(".form")
-    warning = document.querySelector(".warning")
-    btn_form = document.getElementsByTagName("input")[2]
+    form = document.querySelector(".form");
+    warning = document.querySelector(".warning");
+    btn_form = document.getElementsByTagName("input")[2];
     console.log(btn_form)
     /* affectation de valeur et de type */
-    console.log(btn.innerText)
+    console.log(btn_form.innerText)
  
-    btn.addEventListener("click",(e)=>{
+    btn_form.addEventListener("click",(e)=>{
          form.classList.add('appear')
     })
     traitement = (e)=>{
@@ -19,7 +19,8 @@ document.addEventListener("DOMContentLoaded",()=>{
         }
         if(!User.email || !User.mdp || !isNaN(User.email)){
             warning.classList.add("warning")
-            warning.textContent ="Champs vides: remplir les champs!"
+            warning.innerText ="Champs vides: remplir les champs!"
+            warning.style.display = "block";
         }
         else{
             sessionStorage.setItem("email", User.email);
