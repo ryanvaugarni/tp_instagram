@@ -60,8 +60,13 @@ figcaption h3{
 strong{
     color: #000;
 }
-main{
+main section{
     max-width: 39rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+main figure{
+    max-width: 70rem;
     margin: 0 auto;
 }
 main section, main .form{
@@ -104,5 +109,8 @@ figure ul li img{
 @media screen and (max-width: 60rem)and (min-width: 10rem){
     header h1{
         font-size: 1rem;
+    }
+    main figure{
+        max-width: 39rem;
     }
    }
