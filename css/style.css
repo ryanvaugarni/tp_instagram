@@ -2,8 +2,9 @@
 
 /* reset css */
 html{
-font-size: 62.5%;
-scroll-behavior: smooth;
+    font-size: 62.5%;
+    margin: 0;
+    scroll-behavior: smooth;
 }
 body{
     font: 1.6rem 'Montserrat', sans-serif;
@@ -37,7 +38,7 @@ a{
     display: block;
     margin: 0 auto 0;
     margin-top: -2rem;
-    }
+}
 /* theme */
 input{
     outline: none;
@@ -96,13 +97,14 @@ form input[type="submit"]{
     border: solid .1rem transparent;
     margin: .8rem auto 0;
     width: 100%;
-    background-color: #328ecf;
+    background-color: #3897f0;
     color: #ffffff;
     border-radius: .3rem;
     font-size: 1.6rem;
+    cursor: pointer;
 }
 input[type="submit"]:hover{
-    background-color: #0669af;
+    background-color: #1d87d2;
 }
 .appear{
     z-index: 1;
@@ -146,6 +148,7 @@ img{
 }
 form p {
     color: #20357b;
+    cursor: pointer;
 }
 #icon{
     width: 2rem;
@@ -172,8 +175,8 @@ h3 a{
     width: 16rem;
 } 
 /* RESPONSIVE */
-@media screen and (max-width: 60rem)and (min-width: 10rem){
- header h1{
-     font-size: 1rem;
+@media screen and (max-width: 60rem) and (min-width: 10rem){
+header h1{
+    font-size: 1rem;
  }
 }
