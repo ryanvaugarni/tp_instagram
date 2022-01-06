@@ -43,7 +43,7 @@ a{
 header h1{
     line-height: 6rem;
     font-size: 1.5rem;
-    color: var(--color-header);
+    color: #656565;
     text-transform: uppercase;
 }
 figcaption h3{
