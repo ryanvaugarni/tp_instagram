@@ -127,7 +127,7 @@ img{
     text-align: center;
     box-sizing: border-box;
     margin: 0 auto;
-    color: #b2b2b2;
+    color: #646464;
   }
 #divider:before, #divider:after{
     background-color: rgb(0, 0, 0);
@@ -155,11 +155,11 @@ form p {
     transform: translateX(-1rem);
     transform: translateY(0.4rem);
 }
-section h3{
+section h2{
     font-size: 1.7rem;
 }
-h3 a{
-    color: #2b7dc0;
+h2 a{
+    color: #1f67a1;
 }
 /* PLAYSTORE AND APPLE WIDGET */
 #picture li{
